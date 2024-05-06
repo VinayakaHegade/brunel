@@ -1,0 +1,18 @@
+.header {
+  margin: 24px;
+  padding: 17px 21px 17px 52px;
+  border: 1px solid var(--br-gray);
+  border-radius: 65px;
+  background-color: var(--bg-gray);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > img {
+  padding: 7.86px 6.78px;
+}
+
+.ctaButtonContainer {
+  display: flex;
+  gap: 16px;
+}

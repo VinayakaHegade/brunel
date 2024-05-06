@@ -1,9 +1,10 @@
-root {
-  --primary-blue: rgb(67, 174, 252);
-  --secondary-blue: rgb(48, 141, 191);
-  --primary-gray: rgb(192, 192, 192);
-  --error: rgb(255, 55, 55);
-  --br: 6px;
+:root {
+  --br-gray: rgba(234, 234, 234, 1);
+  --bg-gray: rgba(255, 255, 255, 0.8);
+  --bg-secondary: rgba(241, 241, 241, 1);
+  --primary-black: rgba(28, 28, 28, 1);
+  --hover-black: rgba(78, 78, 78, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 
 /*
@@ -19,6 +20,7 @@ root {
 */
 * {
   margin: 0;
+  padding: 0;
 }
 /*
   Typographic tweaks!
@@ -29,7 +31,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: var(--primary-blue);
-  font-family: Inter, sans-serif;
+  font-family: Manrope;
 }
 /*
   5. Improve media defaults

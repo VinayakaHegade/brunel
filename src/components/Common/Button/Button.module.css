@@ -1,0 +1,35 @@
+.button {
+  padding: 26px 42px;
+  border-radius: 107px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.primary {
+  border: 1px solid var(--br-gray);
+  background-color: transparent;
+  color: var(--primary-black);
+}
+
+.primary:hover {
+  background-color: var(--bg-secondary);
+}
+
+.secondary {
+  background-color: var(--primary-black);
+  color: var(--white);
+}
+
+.secondary:hover {
+  background-color: var(--hover-black);
+}
+
+.iconContainer {
+  display: inline-block;
+}
