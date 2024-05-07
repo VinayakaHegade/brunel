@@ -12,22 +12,22 @@
 }
 
 .primary {
+  background-color: var(--primary-black);
+  color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--hover-black);
+}
+
+.secondary {
   border: 1px solid var(--br-gray);
   background-color: transparent;
   color: var(--primary-black);
 }
 
-.primary:hover {
-  background-color: var(--bg-secondary);
-}
-
-.secondary {
-  background-color: var(--primary-black);
-  color: var(--white);
-}
-
 .secondary:hover {
-  background-color: var(--hover-black);
+  background-color: var(--bg-secondary);
 }
 
 .iconContainer {

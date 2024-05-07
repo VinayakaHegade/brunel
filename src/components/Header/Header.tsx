@@ -6,8 +6,8 @@ const Header = () => {
     <header className={styles.header}>
       <img src="./brunel.svg" alt="Brunel Logo" />
       <div className={styles.ctaButtonContainer}>
-        <Button variant="primary">Get Projects</Button>
-        <Button variant="secondary">Onboard Talent</Button>
+        <Button variant="secondary">Get Projects</Button>
+        <Button variant="primary">Onboard Talent</Button>
       </div>
     </header>
   );

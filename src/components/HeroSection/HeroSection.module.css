@@ -1,3 +1,242 @@
 .container {
-  margin: 79px 145px 79px 62px;
+  position: relative;
+  margin: 79px 0px 79px 62px;
+}
+
+.bgBlocksImg {
+  position: absolute;
+  width: 471px;
+  height: 590px;
+  top: 200px;
+  left: 935px;
+  opacity: 0.7;
+  overflow: clip;
+  z-index: -1;
+}
+
+.headingTextContainer {
+  margin: 0 auto;
+  max-width: 588px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.headingTextContainer > h4 {
+  font-family: Covered By Your Grace;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: var(--green-text);
+}
+
+.headingTextContainer > h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  color: var(--primary-black);
+}
+
+.content {
+  margin-top: 112px;
+  display: flex;
+  gap: 108px;
+}
+
+.heroImageContainer {
+  margin-left: 30px;
+  width: 727.49px;
+  height: 596px;
+  position: relative;
+}
+
+.heroImageContainer > img {
+  position: absolute;
+  width: 506.98px;
+  height: 546.27px;
+  top: 0px;
+  left: 145px;
+  gap: 0px;
+  border-radius: 50.7px;
+}
+
+.percentageBox {
+  position: relative;
+  width: 267.82px;
+  height: 239px;
+  top: 114px;
+  left: 0px;
+  padding: 30px;
+  border-radius: 27.11px;
+  background-color: var(--white);
+  box-shadow: 0px 22.59px 36.14px 0px rgba(30, 30, 30, 0.09);
+}
+
+.percentageBox:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.percentageBox > img {
+  position: absolute;
+  top: -25px;
+  left: -13px;
+  width: 105px;
+  height: 105px;
+  /* transform: rotate(-21.27deg); */
+}
+
+.percentageBox > h2 {
+  font-family: Switzer;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  color: var(--primary-black);
+  margin-bottom: 10px;
+}
+
+.percentageBox > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: var(--gray-text);
+}
+
+.deploymentBox {
+  position: absolute;
+  max-width: 246px;
+  top: 412.71px;
+  left: 86.19px;
+  padding: 16px 32px 16px 16px;
+  display: flex;
+  gap: 14px;
+  border-radius: 111.54px;
+  background-color: var(--white);
+  box-shadow: 0px 15.21px 35.49px 0px rgba(0, 0, 0, 0.09);
+}
+
+.deploymentBox:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.deploymentTextContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.deploymentTextContent > h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  color: var(--primary-black);
+}
+
+.deploymentTextContent > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  color: var(--gray-text);
+}
+
+.savingsBox {
+  position: absolute;
+  max-width: 290.49px;
+  bottom: 0;
+  right: 0;
+  padding: 34px 30px 40px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 28.36px;
+  box-shadow: 0px 23.63px 37.81px 0px rgba(30, 30, 30, 0.09);
+  background-color: var(--dark-green-bg);
+  border: solid;
+  border-width: 1.18px 0 0 1.18px;
+  border-color: #3d3d3d;
+}
+
+.savingsBox:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.savingsBox > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: rgba(204, 204, 204, 1);
+}
+
+.savingsHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 11px;
+}
+
+.savingsHeader > h2 {
+  font-family: Switzer;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  color: var(--white);
+}
+
+.savingsHeader > p {
+  font-family: Switzer;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  color: rgba(166, 163, 160, 1);
+}
+
+.heroCtaContainer {
+  margin-top: 71px;
+  max-width: 398px;
+}
+
+.heroCtaContainer > h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: var(--primary-black);
+}
+
+.carouselIndicators {
+  margin: 55px 0px 130px;
+  display: flex;
+  gap: 12px;
+}
+
+.carouselIndicators > span {
+  display: block;
+  cursor: pointer;
+  width: 10.75px;
+  height: 10.75px;
+  border-radius: 50%;
+  background-color: rgba(228, 227, 227, 1);
+}
+
+.carouselIndicators > span:hover {
+  background-color: rgba(202, 208, 203, 1);
+}
+
+.carouselIndicators .active {
+  background-color: var(--green-text);
+}
+
+.carouselIndicators .active:hover {
+  background-color: var(--green-text);
+}
+
+.ctaButton {
+  padding: 31px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
 }
