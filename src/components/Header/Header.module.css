@@ -16,3 +16,7 @@
   display: flex;
   gap: 16px;
 }
+
+.secondaryCta {
+  text-decoration: none;
+}

@@ -1,27 +1,21 @@
-import { ReactNode, MouseEventHandler } from "react";
+import { ReactNode, ButtonHTMLAttributes } from "react";
 import styles from "./Button.module.css";
 
-interface ButtonProps {
+interface KnownButtonProps {
   children: ReactNode;
   variant: "primary" | "secondary";
   icon?: ReactNode;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
-  className?: string;
 }
 
-const Button = ({
-  children,
-  variant,
-  icon,
-  onClick,
-  className,
-}: ButtonProps) => {
+type ButtonProps = KnownButtonProps & ButtonHTMLAttributes<HTMLButtonElement>;
+
+const Button = ({ children, variant, icon, ...otherProps }: ButtonProps) => {
   const buttonClassName = `${styles.button} ${styles[variant]} ${
-    className || ""
+    otherProps.className || ""
   }`;
 
   return (
-    <button className={buttonClassName} onClick={onClick}>
+    <button {...otherProps} className={buttonClassName}>
       <span>{children}</span>
       {icon && <span className={styles.iconContainer}>{icon}</span>}
     </button>

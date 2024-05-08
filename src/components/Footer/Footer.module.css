@@ -31,3 +31,7 @@
   color: var(--primary-black);
   text-decoration: underline;
 }
+
+.right > a {
+  cursor: pointer;
+}

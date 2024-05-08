@@ -13,7 +13,7 @@ const FAQSection = () => {
 
       <div className={styles.accordiansContainer}>
         {FAQs.map((FAQ) => (
-          <Accordion question={FAQ.question} answer={FAQ.answer} />
+          <Accordion key={FAQ.id} question={FAQ.question} answer={FAQ.answer} />
         ))}
       </div>
     </section>

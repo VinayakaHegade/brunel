@@ -9,8 +9,8 @@ const Footer = () => {
       </div>
 
       <div className={styles.right}>
-        <p>Terms & Conditions</p>
-        <p>Privacy Policy</p>
+        <a>Terms & Conditions</a>
+        <a>Privacy Policy</a>
       </div>
     </footer>
   );
