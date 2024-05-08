@@ -37,3 +37,13 @@ export const FAQs: FAQ[] = [
       "Our team of experts can guide you in determining the right skillset and project duration based on your specific needs and goals.",
   },
 ];
+
+type INITIAL_VALIDATION_ERRORS = {
+  name: string;
+  email: string;
+};
+
+export const INITIAL_VALIDATION_ERRORS: INITIAL_VALIDATION_ERRORS = {
+  name: "",
+  email: "",
+};

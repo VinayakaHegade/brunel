@@ -5,7 +5,7 @@ import styles from "./FAQSection.module.css";
 const FAQSection = () => {
   return (
     <section className={styles.container}>
-      <img src="./union.svg" alt="" className={styles.bgImage} />
+      <img src="./assets/union.svg" alt="" className={styles.bgImage} />
       <div className={styles.heading}>
         <h4>What’s on your mind</h4>
         <h2>Ask Questions</h2>

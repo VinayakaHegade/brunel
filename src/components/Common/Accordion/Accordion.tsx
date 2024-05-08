@@ -22,7 +22,7 @@ const Accordion = ({ question, answer }: AccordionProps) => {
       >
         <h3>{question}</h3>
         <img
-          src={isOpen ? "./minus.svg" : "./plus.svg"}
+          src={isOpen ? "./assets/minus.svg" : "./assets/plus.svg"}
           alt=""
           className={`${styles.indicator} ${isOpen ? styles.active : ""}`}
         />

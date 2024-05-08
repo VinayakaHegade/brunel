@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.container} role="conten-info">
       <div className={styles.left}>
-        <img src="./copyright.svg" alt="" />
+        <img src="./assets/copyright.svg" alt="" />
         <p>Talup 2023. All rights reserved</p>
       </div>
 
