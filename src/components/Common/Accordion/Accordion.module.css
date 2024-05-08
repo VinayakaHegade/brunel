@@ -1,0 +1,40 @@
+.wrapper {
+  border-bottom: 1px solid rgba(215, 215, 215, 1);
+  overflow: hidden;
+}
+
+.wrapper .question-container {
+  width: 100%;
+  padding-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper .indicator {
+  transition: 0.5s ease-in-out;
+}
+
+.indicator.active {
+  rotate: 180deg;
+}
+
+.wrapper .answer-container {
+  transition: height 0.7s ease-in-out;
+}
+
+.wrapper .answer-content {
+  padding-bottom: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(97, 114, 117, 1);
+}

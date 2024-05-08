@@ -1,6 +1,7 @@
 .container {
   position: relative;
   margin: 79px 0px 79px 62px;
+  overflow: clip;
 }
 
 .bgBlocksImg {
@@ -10,7 +11,6 @@
   top: 200px;
   left: 935px;
   opacity: 0.7;
-  overflow: clip;
   z-index: -1;
 }
 
@@ -43,6 +43,7 @@
 .content {
   margin-top: 112px;
   display: flex;
+  flex-wrap: wrap;
   gap: 108px;
 }
 
