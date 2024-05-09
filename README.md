@@ -1,5 +1,7 @@
 # Brunel Website
 
+Note: This website is currently not available for small screens. Please open or use it on a desktop. Thank you for your understanding and cooperation.
+
 [![Brunel-website](https://img.shields.io/badge/Tryit-(here)-blue.svg)](https://brunelthence.netlify.app)
 
 The website serves as a platform to market staff augmentation services to various companies, with a primary focus on targeting unicorns. The key emphasis lies in presenting a high-quality user experience, both in terms of aesthetics and functionality.
