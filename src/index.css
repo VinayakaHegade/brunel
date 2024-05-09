@@ -83,3 +83,16 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.desktop-warning {
+  font-family: Manrope;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+  color: rgba(114, 114, 114, 1);
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: 16px;
+}
